@@ -22,8 +22,8 @@ jobs:
         with:
           node-version: ${{ inputs.node-version }}
 
-      - run: npm install
-      - run: npm run build
+      - run: npm install --verbose
+      - run: npm run build --verbose
 
   test: 
     needs: build
