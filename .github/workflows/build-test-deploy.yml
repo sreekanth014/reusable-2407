@@ -1,5 +1,5 @@
 name: build-test-deploy
-# Changed 'on' to enable this workflow to be called from other workflows
+# Changed 'on' to enable this workflow to be called from other workflow
 on:
   workflow_call:
     # Introduced 'inputs' to define parameters that can be passed when calling this workflow
