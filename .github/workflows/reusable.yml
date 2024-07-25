@@ -5,4 +5,4 @@ jobs:
     uses: sreekanth014/reusable-2407/.github/workflows/build-test-deploy.yml@master
     # Passing 'node-version' as an input parameter to the reusable workflow
     with:
-      node-version: '18.x'
+      node-version: '20.x'
